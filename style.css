@@ -17,9 +17,11 @@ header{
 .vid-bg{
   position: absolute;
   right: 0;
+  left: 0;
   bottom: 0;
-  width: 100%;
-  height: auto%;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .nav-area{
