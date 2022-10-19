@@ -26,6 +26,10 @@ video {
     z-index: -10;
 }
 
+@media (max-width: 991px) {
+    
+}
+
 .bg-overlay {
     position: fixed;
     top: 0;
