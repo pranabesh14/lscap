@@ -295,3 +295,11 @@ ul {
 .container.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
+h2 {
+  padding: 100px;
+  text-align: center;
+}
+p {
+  padding-left: 100px;
+  text-align: center;
+}
