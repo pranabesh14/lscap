@@ -1,3 +1,4 @@
+var video = document.getElementById(".lscap");
 document.addEventListener("DOMContentLoaded", function(){
     document.body.addEventListener("touchstart", playVideo);
     function playVideo() {
@@ -8,3 +9,10 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 });
+
+const hamburger_menu = document.querySelector(".hamburger-menu");
+const container = document.querySelector(".container");
+
+hamburger_menu.addEventListener("click", () => {
+  container.classList.toggle("active");
+})
